@@ -1,0 +1,171 @@
+.app {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    height: 100vh;
+}
+
+.header {
+  display: flex;
+  background-color: black;
+  height: 50px;
+}
+
+.header_player{
+    display: flex;
+    height: 100%;
+}
+
+.player_img{
+    width: auto;
+}
+
+.logo{
+    margin: auto;
+}
+
+.header__input {
+  height: 40%;
+  margin-left: 5px;
+}
+
+.header_link {
+  margin: auto;
+
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width:4%;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.underline{
+    margin: 20px auto;
+    width: 10%;
+    border-bottom: 2px solid brown;
+}
+
+
+.footer {
+  display: flex;
+  background-color: black;
+  height: 200px;
+  flex-direction: column;
+}
+
+.footer_one{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_link {
+  margin-bottom: 5px;
+}
+
+.main_header{
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  position: relative;
+}
+
+.main_header_two:after{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 18px;
+    position: relative;
+    text-align: center;
+}
+
+.main_header_one{
+  color: black;
+  font-size: 40px;
+}
+
+.main_header_two{
+  color: black;
+  font-size: 20px;
+}
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  width: 180px;
+}
+
+.round {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+img + h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.body_section {
+  margin-top: 40px;
+}
+
+.tag_link {
+  color: grey;
+  text-decoration: none;
+}
+
+.hot-right-now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 6  0px;
+}
+
+.div_2 {
+  margin-top: 40px;
+}
+
+.coulumn_ol {
+  display: flex;
+  column-gap:80px;
+  margin-left: 80px;
+}
+
+.row_li {
+  display: flex;
+
+  margin-bottom: 20px;
+}
+
+.tracks_li {
+  margin-left: 10px;
+}
+
+.search_line{
+    width: 100%;
+    border-bottom: 2px solid gray;
+    color: grey;
+}
+
+.search {
+  margin-top: 50px;
+}
