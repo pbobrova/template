@@ -111,6 +111,13 @@ ul {
   flex-wrap: wrap;
   column-gap: 5px;
   width: 180px;
+
+}
+
+.hot_ul
+{
+  align-content: center;
+  justify-content: center;
 }
 
 .round {
@@ -136,8 +143,21 @@ img + h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* flex-wrap: wrap; */
+  /* margin-left: 6  0px; */
+}
 
-  margin-left: 6  0px;
+.hot_li
+{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  /* width: 160px; */
+}
+
+.hot_ul{
+
 }
 
 .div_2 {
@@ -147,7 +167,7 @@ img + h3 {
 .coulumn_ol {
   display: flex;
   column-gap:80px;
-  margin-left: 80px;
+  justify-content: center;
 }
 
 .row_li {
